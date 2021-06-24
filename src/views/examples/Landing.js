@@ -138,42 +138,21 @@ class Landing extends React.Component {
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
-              <Row className="justify-content-center">
+            <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
+                          
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                          COVID-19 Impact in Jordan
                           </h6>
+                          <img src={"https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F518134%2F485aa04e87e4e45c91815101784c6d95%2Fcorona-4930541_1280.jpg?generation=1585438527494582&alt=media"} />
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This the project i worked on with my friend for the graduate project, it's nice to know how covid-19 affect people in Jordan 
                           </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                    
                         </CardBody>
                       </Card>
                     </Col>
