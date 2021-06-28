@@ -81,13 +81,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        How is Tech. EXCITING{" "}
+                        <span>It's all about feeling good</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                    great things can do it bu using Tech
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -105,6 +103,7 @@ class Landing extends React.Component {
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         >
+                          
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
@@ -133,12 +132,18 @@ class Landing extends React.Component {
                   />
                 </svg>
               </div>
+              
             </section>
-            {/* 1st Hero Variation */}
+            
           </div>
+
+          <section>
+            
+          </section>
+          
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
-            <Row className="justify-content-center">
+              <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
@@ -146,77 +151,59 @@ class Landing extends React.Component {
                         <CardBody className="py-5">
                           
                           <h6 className="text-primary text-uppercase">
-                          COVID-19 Impact in Jordan
+                               Easy COOK
                           </h6>
-                          <img src={"https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F518134%2F485aa04e87e4e45c91815101784c6d95%2Fcorona-4930541_1280.jpg?generation=1585438527494582&alt=media"} />
+                          {/* <img src={} /> */}
                           <p className="description mt-3">
-                            This the project i worked on with my friend for the graduate project, it's nice to know how covid-19 affect people in Jordan 
+                            This the project i worked on with my team foe code 201. It's a cook website that encourages to cook at home.
                           </p>
-                    
+                        
+                          {/* <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://victoria-fz-eng.github.io/jordan-wonders/"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
+                         
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Salmon Cookies
                           </h6>
+                          {/* <img src={} /> */}
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is a website for Salmon-Cookies store branches, all over the world.
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
+                       
+                          {/* <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
+                       
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Horned Beasts
                           </h6>
+                          {/* <img src={} /> */}
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is a gallery showing and sorting hornes beasts based on the number of horns.
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
+                         
                           <Button
                             className="mt-4"
                             color="warning"
