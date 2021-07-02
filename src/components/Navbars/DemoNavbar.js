@@ -175,7 +175,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/portfolio" tag={Link}>
                         Landing
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -217,22 +217,22 @@ class DemoNavbar extends React.Component {
                       Follow us on Instagram 
                     </UncontrolledTooltip>
                   </NavItem> */}
-                  {/* <NavItem>
+                  <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
+                      href="https://www.linkedin.com/in/thaer-braizat-a7b513200/"
                       id="tooltip184698705"
                       target="_blank"
                     >
-                      <i className="fa fa-twitter-square" />
+                     <i class="bi bi-linkedin"></i>
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
+                        linkedin
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Follow us on Twitter
+                      Follow us on linkedin
                     </UncontrolledTooltip>
-                  </NavItem> */}
+                  </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"

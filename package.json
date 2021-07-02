@@ -45,6 +45,7 @@
   ],
   "dependencies": {
     "bootstrap": "4.3.1",
+    "bootstrap-icons": "^1.5.0",
     "classnames": "2.2.6",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
