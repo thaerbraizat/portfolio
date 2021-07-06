@@ -108,6 +108,22 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       
                     </Col>
+                    <Col className="order-lg-1" lg="4">
+                      <div className="card-profile-stats d-flex justify-content-center">
+                        <div>
+                          <span className="heading">0777959242</span>
+                          <span className="description">phoneNumber</span>
+                        </div>
+                        <div>
+                          <span className="heading">10</span>
+                          <span className="description">Projects</span>
+                        </div>
+                        {/* <div>
+                          <span className="heading">89</span>
+                          <span className="description">Comments</span>
+                        </div> */}
+                      </div>
+                    </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
